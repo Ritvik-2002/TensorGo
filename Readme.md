@@ -1,13 +1,12 @@
-# This code is written by Sai Ritvik Charugulla
+This code is written by Sai Ritvik Charugulla
 
-# To run this code you have to go to frontend folder and run the following command
-# npm intall
-# npm start
+To run this code you have to go to frontend folder and run the following command
+npm intall
+npm start
 
-# To run the code you have to go to backend folder and run the following command
-# You should keep the .env file which I had send you in the backend folder
-# npm install
-# node index.js
+To run the code you have to go to backend folder and run the following commandYou should keep the .env file which I had send you in the backend folder
+npm install
+node index.js
 
 
 # Routes :
