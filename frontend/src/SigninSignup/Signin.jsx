@@ -48,6 +48,7 @@ const Signin = () => {
                     {loading ? "Loading..." : "Sign In"}
                 </button>
                 {error && <span className="error">{error}</span>}
+                <button onClick={() => navigate("/signup")}>Sign Up</button>
             </form>
         </div>
     );

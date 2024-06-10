@@ -7,11 +7,6 @@ const FeedBack = mongoose.Schema(
         ref:'User',
         required:true
     },
-    email: {
-      type: String,
-      required: [true, "Please add the user email address"],
-      unique: [true, "Email address already taken"],
-    },
     category: {
       type: String,
       required: [true, "Please add the category"],

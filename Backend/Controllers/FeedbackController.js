@@ -13,17 +13,16 @@ const getFeedback = asyncHandler(async (req, res) => {
 //@route POST /api/feedback
 //@access private
 const createFeedback = asyncHandler(async (req, res) => {
-    const { email, category, feedback } = req.body;
+    const { category, feedback } = req.body;
     if(category === "Product Features" || category === "Product Pricing" || category === "Product Usability"){
         console.log("The request body is :", req.body);
     }
-    else{
-        res.status(400)
-        throw new Error("category should be only out of three");
+    else{   
+        console.log("error is coming")
+        return res.status(400)
     }
     const newfeedback =  await Feedback.create({
         user_id : req.user.id,
-        email,
         category,
         feedback
     });

@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container .col .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container .col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container .col2 table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container .col2 table th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container .col2 table th{
+    background-color: #f2f2f2;
+}
